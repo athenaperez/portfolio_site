@@ -1,0 +1,23 @@
+{
+  "name": "portfolio_site",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Athena Perez <athenaperez@me.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/athenaperez/portfolio_site",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "materialize": "^0.98.2"
+  }
+}

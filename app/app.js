@@ -7,10 +7,4 @@ app.config(['$routeProvider', function($routeProvider) {
 		controller: 'HomeCtrl'
 	})
 
-j
-// materialize drop down selects
-  $(document).ready(function() {
-    $('select').material_select();
-  });
-
 }])
