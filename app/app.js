@@ -1,8 +1,4 @@
-const app = angular.module('PortfolioSite', ['ngRoute'])
-
-
-
-
+const app = angular.module('PortfolioSite', ['ngRoute']);
 
 
 
@@ -18,6 +14,10 @@ app.config(['$routeProvider', function($routeProvider) {
 	.when('/ux', {
 		templateUrl: 'partials/ux.html',
 		controller: 'UxCtrl'
+	})
+	.when('/dev', {
+		templateUrl: 'partials/dev.html',
+		controller: 'DevCtrl'
 	})
 	.when('/photography', {
 		templateUrl: 'partials/photography.html',

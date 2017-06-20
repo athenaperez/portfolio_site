@@ -1,5 +1,5 @@
-* {
-	background-color: salmon;
+body {
+	background-color: lightgrey;
 	margin-left: .5%;
 	margin-top: 0;
 }
@@ -9,7 +9,7 @@
 	margin-right: 3%;
 	margin-top: 0;
 	margin-bottom: 0;
-/*	background-color: white;*/
+	background-color: white;
 	border-left: 2px ridge grey;
 	padding-top: .5%;
 
