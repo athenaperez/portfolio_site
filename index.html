@@ -9,52 +9,56 @@
 		<!-- materialize icons -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
-<!-- ____________________________________ -->
+
+
+<!-- BODY________________________ -->
+<body ng-app="PortfolioSite">
+
+
+	<!-- nav bar_________________________ -->
+	<div class="navbar-fixed">
+	<nav>
+	  <div class="nav-wrapper">
+	    <a href="#!" class="brand-logo">Logo</a>
+	    <ul id="nav-mobile" class="right hide-on-med-and-down">
+	      <li><a href="#!/ux">UX & UI</a></li>
+	      <li><a href="#!/dev">Dev</a></li>
+	      <li><a href="#!/graphics">Graphics</a></li>
+	      <li><a href="#!/photography">Photograpy</a></li>
+	    </ul>
+	  </div>
+	</nav>
+	</div>
+	<!-- end nav bar_______________________ -->
 
 
 
-	<body ng-app="PortfolioSite">
+	<div class="wrapper">
 
-		 <div class="navbar-fixed">
-		  <nav>
-		    <div class="nav-wrapper">
-		      <a href="#!" class="brand-logo">Logo</a>
-		      <ul id="nav-mobile" class="right hide-on-med-and-down">
-		        <li><a href="#!/ux">UX & UI</a></li>
-		        <li><a href="#!/dev">Dev</a></li>
-		        <li><a href="#!/graphics">Graphics</a></li>
-		        <li><a href="#!/photography">Photograpy</a></li>
-		      </ul>
-		    </div>
-		  </nav>
-		</div>
+			<h2>Athena Perez | UX & UI Digital Product Designer (index)</h2>
+
+			<div ng-view></div>
+
+
+	</div>
 
 
 
-
-
-		<div class="wrapper">
-
-				<h2>Athena Perez | UX & UI Digital Product Designer (index)</h2>
-
-				<div ng-view></div>
-
-
-		</div>
-
-
-
-<!-- _______________________________________ -->
+<!-- SCRIPTS_______________________________ -->
 		<script src="lib/angular/angular.min.js"></script>
 		<script src="lib/angular-route/angular-route.min.js"></script>
 		<script src="lib/jquery/dist/jquery.min.js"></script>
 		<script src="/lib/materialize/dist/js/materialize.min.js"></script>
 		<script src="app/app.js"></script>
+
 <!-- 		<script src="app/factories/"></script> -->
 
-<!-- 		<script src="app/controllers/"></script> -->
 		<script src="app/controllers/homeCtrl.js"></script>
-
+		<script src="app/controllers/devCtrl.js"></script>
+		<script src="app/controllers/graphicsCtrl.js"></script>
+		<script src="app/controllers/photographyCtrl.js"></script>
+		<script src="app/controllers/uxCtrl.js"></script>
+<!-- END SCRIPTS______________________ -->
 
 	</body>
 </html>
